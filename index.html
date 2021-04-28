@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap theme</title>
+
+    <link rel="stylesheet" href="Styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <div class="header">
+      <div class="container1">
+        <div class="header-grid">
+          <div class="header-img">
+            <img src="img/me.jpg" width="100%" height="380px" />
+          </div>
+          <div class="header-title bg-dark">
+            <div class="flex-wrapper">
+              <h1 class="display-4">Abdulla Gasanov</h1>
+              <i class="fab fa-twitter h-icon"></i>
+              <i class="fab fa-facebook h-icon"></i>
+              <i class="fab fa-instagram h-icon"></i>
+              <a
+                href="http://github.com"
+                class="fab fa-github h-icon text-white"
+              ></a>
+            </div>
+          </div>
+          <div class="header-info">Experienced Full Stack Web Developer</div>
+          <div class="header-nav">
+            <div
+              class="nav-item bg-primary"
+              data-toggle="collapse"
+              data-target="#home"
+            >
+              <i class="fas fa-home fa-2x text-white text-center"></i>
+              <p>Home</p>
+            </div>
+            <div
+              class="nav-item bg-success"
+              data-toggle="collapse"
+              data-target="#resume"
+            >
+              <i class="fas fa-graduation-cap fa-2x text-white text-center"></i>
+              <p>Resume</p>
+            </div>
+            <div
+              class="nav-item bg-warning"
+              data-toggle="collapse"
+              data-target="#work"
+            >
+              <i class="fas fa-folder fa-2x text-white text-center"></i>
+              <p>Work</p>
+            </div>
+            <div
+              class="nav-item bg-danger"
+              data-toggle="collapse"
+              data-target="#contact"
+            >
+              <i class="fas fa-envelope fa-2x text-white text-center"></i>
+              <p>Contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--HOME-->
+    <section id="home" class="collapse home">
+      <div class="container1 bg-light">
+        <div class="home-header bg-primary text-white p-5">
+          <h2>Welcome To My Page</h2>
+          <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!
+          </p>
+        </div>
+        <div class="home-body py-4 px-4 mb-2">
+          <h2>My Skills</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+            ea excepturi officia quisquam atque eos.
+          </p>
+
+          <hr />
+          <div class="home-skills">
+            <h3>HTML 5</h3>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 100%"></div>
+            </div>
+            <h3>CSS 3</h3>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 100%"></div>
+            </div>
+            <h3>JavaScript</h3>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 90%"></div>
+            </div>
+            <h3>PHP</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width: 80%"></div>
+            </div>
+            <h3>Python</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Resume-->
+    <section id="resume" class="resume collapse">
+      <div class="container1">
+        <div class="resume-info bg-success text-white p-5">
+          <h2>My Resume</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+            pariatur.
+          </p>
+        </div>
+        <div class="p-2">
+          <h3 class="resume-title">Where Have I Worked?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            similique saepe inventore rem vitae esse.
+          </p>
+        </div>
+
+        <div class="d-flex">
+          <div class="card m-2">
+            <div class="card-body p-4">
+              <h4>Devmasters</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                magnam.
+              </p>
+              <div class="bg-dark p-2 mb-3 text-white">
+                Position: Full Stack Developer
+              </div>
+              <div class="bg-dark p-2 mb-3 text-white">
+                Phone: (444) 444-4444
+              </div>
+            </div>
+            <div class="card-footer">Dates: 2015 - 2018</div>
+          </div>
+          <div class="card m-2">
+            <div class="card-body p-4">
+              <h4>Devmasters</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                magnam.
+              </p>
+              <div class="bg-dark p-2 mb-3 text-white">
+                Position: Full Stack Developer
+              </div>
+              <div class="bg-dark p-2 mb-3 text-white">
+                Phone: (444) 444-4444
+              </div>
+            </div>
+            <div class="card-footer">Dates: 2015 - 2018</div>
+          </div>
+          <div class="card m-2">
+            <div class="card-body p-4">
+              <h4>Devmasters</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                magnam.
+              </p>
+              <div class="bg-dark p-2 mb-3 text-white">
+                Position: Full Stack Developer
+              </div>
+              <div class="bg-dark p-2 mb-3 text-white">
+                Phone: (444) 444-4444
+              </div>
+            </div>
+            <div class="card-footer">Dates: 2015 - 2018</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--WORK-->
+    <section id="work" class="work collapse">
+      <div class="container1">
+        <div class="work-header bg-warning text-white p-5">
+          <h3>My Work</h3>
+          <p class="lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, qui.
+          </p>
+        </div>
+        <div class="work-body py-4 px-3">
+          <h3>What Have I Built?</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+            consectetur cumque atque voluptate, inventore blanditiis.
+          </p>
+          <div class="work-gallery">
+            <!--          <div class="d-flex justify-content-around mb-2" style="gap: 2px">
+              <img src="img/1.jpg" />
+              <img src="img/2.jpg" />
+              <img src="img/3.jpg" />
+              <img src="img/4.jpg" />
+            </div> -->
+
+            <div class="d-flex mb-2" style="gap: 2px">
+              <div class="galery col-md-3">
+                <a href="img1" data-toggle="modal" data-target="#img1">
+                  <img src="img/1.jpg"
+                /></a>
+              </div>
+              <div class="galery col-md-3">
+                <a data-toggle="modal" data-target="#img2">
+                  <img src="img/2.jpg"
+                /></a>
+              </div>
+              <div class="galery col-md-3">
+                <img src="img/3.jpg" />
+              </div>
+              <div class="galery col-md-3">
+                <img src="img/4.jpg" />
+              </div>
+            </div>
+            <div class="d-flex mb-2" style="gap: 2px">
+              <div class="galery col-md-3">
+                <img src="img/5.jpg" />
+              </div>
+              <div class="galery col-md-3">
+                <img src="img/6.jpg" />
+              </div>
+              <div class="galery col-md-3">
+                <img src="img/7.jpg" />
+              </div>
+              <div class="galery col-md-3">
+                <img src="img/8.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="collapse contact">
+      <div class="container1">
+        <div class="contact-header p-5 bg-danger text-white">
+          <h3>Contact</h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            eligendi?
+          </p>
+        </div>
+        <div class="contact-body card p-5">
+          <h3>Get In Touch</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            cupiditate non et magnam, laborum quibusdam.
+          </p>
+          <div class="input-group-prepend mb-3">
+            <span class="input-group-text bg-danger text-white"
+              ><i class="fas fa-user p-2"></i
+            ></span>
+            <input
+              type="text"
+              name="txt"
+              id="txt"
+              class="form-control bg-dark py-2"
+              style="color: gray"
+              placeholder="Name"
+            />
+          </div>
+          <div class="input-group-prepend mb-3">
+            <span class="input-group-text bg-danger text-white">
+              <i class="fas fa-envelope p-2"></i>
+            </span>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              style="color: gray"
+              class="bg-dark py-2 form-control"
+            />
+          </div>
+          <div class="input-group-prepend mb-3">
+            <span class="input-group-text text-white bg-danger">
+              <i class="fas fa-pen p-2"></i>
+            </span>
+            <textarea
+              class="form-control bg-dark"
+              placeholder="Name"
+            ></textarea>
+          </div>
+          <div class="btn btn-danger text-center text-white btn-block">
+            Submit
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="container1 bg-dark py-3">
+        <div class="p-4">
+          <a
+            class="p-2 text-white"
+            style="
+              border: 1px solid white;
+              border-radius: 5px;
+              text-decoration: none;
+            "
+          >
+            <i class="fas fa-cloud"></i>
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!--Modal-->
+    <div class="modal fade" id="img1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">Big Lake</div>
+          <div class="modal-body">
+            <img src="img/1.jpg" class="img-fluid" />
+          </div>
+          <div class="text-center">
+            <p>By people saynig is most beautiful lake</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="img2">
+      <div class="modal-dialog">
+        <div class="modal-content mt-5">
+          <div class="modal-header">Big Lake</div>
+          <div class="modal-body">
+            <img src="img/2.jpg" width="100%" height="500px" />
+          </div>
+          <div class="text-center">
+            <p>By people saynig is most beautiful lake</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Scripts/js.js"></script>
+
+    <script>
+      $("#year").text(new Date().getFullYear());
+
+      $(".nav-item").click(() => {
+        $(".collapse").collapse("hide");
+      });
+    </script>
+  </body>
+</html>
